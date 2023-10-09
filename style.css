@@ -1,0 +1,62 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+html{
+scroll-behavior: smooth;
+}
+.navbar-brand{
+    color: crimson important;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font: size 200px;;
+}
+.main{
+background-image: url(banner.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: 100vh;
+}
+.logo{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+.bordar{
+border-color: blue;
+border-radius: 10px;
+border: 1px solid;
+position: relative;
+padding: 10px;
+margin-bottom: 10px;
+}
+#carouselExampleInterval .carousel-inner img{
+    height:80vh;
+}
+.carousel-control-prev{
+    border: none;
+}
+.carousel-control-next{
+    border: none;
+}
+.form{
+width:400px;
+height: 450px;
+
+}
+ul li a{
+color: blue;
+
+}
+.bg{
+background-image: url(banner.jpg);
+width: 100%;
+height: 100vh;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
